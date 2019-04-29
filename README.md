@@ -23,6 +23,10 @@ node wuWxapkg.js [-d] <path/to/.wxapkg>
 ````
 
 
+## 一键解包并还原的脚本
+
+node wuWxapkg.js [-d] <path/to/.wxapkg>
+
 ## 当前功能如下
 
 - `node wuConfig.js <files...>` 将 app-config.json 中的内容拆分到各个文件对应的 .json 和 app.json , 并通过搜索 app-config.json 所在文件夹下的所有文件尝试将 iconData 还原为 iconPath 。
